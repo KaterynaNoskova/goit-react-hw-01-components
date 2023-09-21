@@ -1,0 +1,26 @@
+.friendItem {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  width: 285px;
+  gap: 15px;
+  padding-bottom: 10px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.status {
+  display: block;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+}
+
+.green {
+  background-color: rgb(77, 255, 32);
+}
+
+.red {
+  background-color: rgb(207, 18, 18);
+}
