@@ -1,12 +1,12 @@
-import { Profile } from 'components/Profile';
-import { Statistics } from 'components/Statistics';
-import { FriendList } from 'components/FriendList';
-import { TransactionHistory } from 'components/TransactionHistory';
+import { Profile } from 'components/Profile/Profile';
+import { Statistics } from 'components/Statistics/Statistics';
+import { FriendList } from 'components/Friend/FriendList';
+import { TransactionHistory } from 'components/Transaction/TransactionHistory';
 
-import userJS from '../src/user.json';
-import statisticJS from '../src/data.json';
-import friendJS from '../src/friends.json';
-import transactionJS from '../src/transactions.json';
+import userJS from './components/Profile/user.json';
+import statisticJS from './components/Statistics/data.json';
+import friendJS from './components/Friend/friends.json';
+import transactionJS from './components/Transaction/transactions.json';
 
 const { username, tag, location, avatar, stats} = userJS;
 const statistics = statisticJS;
